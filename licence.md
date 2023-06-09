@@ -1,7 +1,0 @@
-website coding copyright Foley Matthews 2023
-
-rainfall data copyright Foley Matthews 2023
-
-lyrics of "We Protect Each Other" copyright Foley Matthews 2023
-
-contact me for enquiries 
