@@ -1,6 +1,6 @@
 # fumthings.github.io
-reference site for Ellen Foley material
+reference website for Ellen Foley material
 
-secondary use, my rainfall data and other projects
+secondary use, website for my rainfall data and other projects
 
 
