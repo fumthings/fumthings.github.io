@@ -10,7 +10,7 @@ yearLinks.forEach(link => {
         event.preventDefault();  // Prevent default link behavior
         
         const year = event.target.getAttribute('data-year');  // Get the year clicked
-        const filePath = `${year}.html`;  // Path to the corresponding year file
+        const filePath = `myenvironment${year}.html`;  // Path to the corresponding year file
         
         // Create a new XMLHttpRequest to load the year-specific HTML file
         const xhr = new XMLHttpRequest();
