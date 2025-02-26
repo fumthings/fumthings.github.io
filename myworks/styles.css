@@ -7,7 +7,10 @@ body {
 
 #years-container {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap; /* Allow the items to wrap to the next line */
+    gap: 10px; /* Space between items */
+    justify-content: center; /* Center the links */
+    padding: 20px;
     margin: 20px 0;
 }
 
