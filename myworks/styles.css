@@ -1,11 +1,11 @@
 /* styles.css */
 
-/* Styling the year links */
+/* Styling the year links container with CSS Grid */
 .year-links {
-    display: flex;
-    flex-wrap: wrap; /* Allow the items to wrap to the next line */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); /* Automatically adjust number of columns */
     gap: 10px; /* Space between items */
-    justify-content: center; /* Center the links */
+    justify-items: center; /* Center items in each grid cell */
     padding: 20px;
 }
 
@@ -16,10 +16,15 @@
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
+    padding: 5px 10px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 5px;
 }
 
 .year:hover {
     color: #0056b3;
+    border-color: #007BFF;
 }
 
 /* Styling the container for year information */
