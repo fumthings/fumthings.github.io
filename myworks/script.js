@@ -12,25 +12,21 @@ yearLinks.forEach(link => {
         const year = event.target.getAttribute('data-year');  // Get the year clicked
         const filePath = `myenvironment${year}.html`;  // Path to the corresponding year file
         
-        // Create a new XMLHttpRequest to load the year-specific HTML file
-        const xhr = new XMLHttpRequest();
-        xhr.open('GET', filePath, true);
-        
-        xhr.onload = function() {
-            if (xhr.status >= 200 && xhr.status < 300) {
-                // Successful response: Inject content into the #year-info container
-                yearInfoContainer.innerHTML = xhr.responseText;
-            } else {
-                // Handle error if the request was unsuccessful
-                yearInfoContainer.innerHTML = `<h2>Error loading content for ${year}</h2><p>Status: ${xhr.status}</p>`;
-            }
-        };
-        
-        xhr.onerror = function() {
-            // Handle network or request errors
-            yearInfoContainer.innerHTML = `<h2>Error loading content for ${year}</h2><p>Network error.</p>`;
-        };
-        
-        xhr.send();
+        // Use Fetch API to load the year-specific HTML file
+        fetch(filePath)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`Failed to load content. Status: ${response.status}`);
+                }
+                return response.text();
+            })
+            .then(data => {
+                // Inject the fetched HTML into the #year-info container
+                yearInfoContainer.innerHTML = data;
+            })
+            .catch(error => {
+                // Handle error if the request fails
+                yearInfoContainer.innerHTML = `<h2>Error loading content for ${year}</h2><p>${error.message}</p>`;
+            });
     });
 });
