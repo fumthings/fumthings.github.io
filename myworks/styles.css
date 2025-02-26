@@ -1,37 +1,31 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-}
+/* styles.css */
 
-#years-container {
+/* Styling the year links */
+.year-links {
     display: flex;
     flex-wrap: wrap; /* Allow the items to wrap to the next line */
     gap: 10px; /* Space between items */
     justify-content: center; /* Center the links */
     padding: 20px;
-    margin: 20px 0;
 }
 
+/* Styling each year link */
 .year {
+    text-decoration: none;
     color: #007BFF;
-    margin: 0 15px;
-    text-decoration: underline;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
 }
 
 .year:hover {
     color: #0056b3;
-    text-decoration: none;
 }
 
+/* Styling the container for year information */
 #year-info {
-    text-align: center;
     margin-top: 20px;
     padding: 20px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
 }
