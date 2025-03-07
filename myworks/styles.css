@@ -21,7 +21,7 @@ ul {
 
 ul li {
     display: inline-block;  /* Make the <li> elements appear inline */
-    margin-right: 10px;  /* Optional: Add space between items */
+    margin-right: 5px;  /* Optional: Add space between items */
 }
 
 /* Styling the year links */
