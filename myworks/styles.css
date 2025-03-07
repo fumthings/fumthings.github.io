@@ -5,6 +5,14 @@ body {
     background-color: #e0e0ff;
 }
 
+/* styling the header */
+header {
+    text-align: center;
+}
+h1, h4 {
+    margin-bottom: 20px;
+}
+
 /* Styling the year links */
 .year-links {
     display: flex;
