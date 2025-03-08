@@ -3,9 +3,6 @@
 /* Default background color */
 body {
     background-color: #e0e0ff;
-	display: flex;
-    		justify-content: center; /* Center the content horizontally */
-    		align-items: center;     /* Center the content vertically */
 }
 
 /* styling the header */
@@ -17,11 +14,7 @@ h1, h4 {
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;             /* Full width */
-}
+    }
 
 ul {
     list-style-type: none;  /* Remove default list bullets */
