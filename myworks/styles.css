@@ -61,6 +61,15 @@ ul li {
     display: flex;
     flex-direction: column;  /* Stack items vertically */
     align-items: center;     /* Center all items horizontally */
-    gap: 5px;               /* Add space between text and images */
-    padding: 15px;
+    
 }
+
+#rainfall-graphs p {
+    margin-bottom: 5px;  /* Space below each text element */
+}
+
+#rainfall-graphs img {
+    margin-bottom: 10px;     /* Space above each image */
+}
+
+
