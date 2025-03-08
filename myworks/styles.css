@@ -54,10 +54,10 @@ ul li {
     border: 1px solid #ddd;
 }
 
-graphs-main {
+#rainfall-graphs {
     display: flex;
     flex-wrap: wrap; /* Allow the items to wrap to the next line */
     gap: 5px; /* Space between items */
-    justify-content: left; /* move left the links */
+    justify-content: center; /* center the content */
     padding: 10px;
 }
