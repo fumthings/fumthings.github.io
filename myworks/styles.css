@@ -56,7 +56,7 @@ ul li {
 
 #rainfall-graphs {
     display: flex;
-    flex-wrap: wrap; /* Allow the items to wrap to the next line */
+    flex-wrap: nowrap; /* Allow the items to wrap to the next line */
     gap: 5px; /* Space between items */
     justify-content: center; /* center the content */
     padding: 10px;
