@@ -65,11 +65,11 @@ ul li {
 }
 
 #rainfall-graphs p {
-    margin-bottom: 5px;  /* Space below each text element */
+    margin-bottom: 2px;  /* Space below each text element */
 }
 
 #rainfall-graphs img {
-    margin-bottom: 10px;     /* Space above each image */
+    margin-bottom: 5px;     /* Space above each image */
 }
 
 
