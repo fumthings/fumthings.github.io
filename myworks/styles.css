@@ -64,12 +64,10 @@ ul li {
     
 }
 
-#rainfall-graphs p {
-    margin-bottom: 20px;  /* Space below each text element */
-}
 
 #rainfall-graphs img {
     margin-bottom: 35px;     /* Space below each image */
+    margin-top: 10px;	     /* space above each image */
 }
 
 
