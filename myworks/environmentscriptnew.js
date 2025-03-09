@@ -1,3 +1,4 @@
+@ -1,78 +1,79 @@
 // Get all year links
 const yearLinks = document.querySelectorAll('.year');
 
@@ -6,7 +7,6 @@ const yearInfoContainer = document.getElementById('year-info');
 
 // Load the JSON file containing the year data
 fetch('yearData.json')
-console.log(yearData);
     .then(response => response.json())
     .then(data => {
         // Add click event listeners to each year link
@@ -20,6 +20,15 @@ console.log(yearData);
                 // Start constructing the HTML for the year info
                 let htmlContent = `<h2>Rainfall data for ${year}</h2>`;
                 
+                // Display the year total
+                htmlContent += `
+                    <div>
+                        <h3>Total Rainfall for ${year}</h3>
+                        <img src="${yearData.yearTotal.image}" alt="${yearData.yearTotal.alt}">
+                        <p><a href="${yearData.yearTotal.csv}">Download CSV for ${year}</a></p>
+                    </div>
+                `;
+                
                 // Display the months for the selected year
                 htmlContent += `<div><h3>Monthly Rainfall for ${year}</h3>`;
                 yearData.months.forEach(monthData => {
@@ -32,15 +41,6 @@ console.log(yearData);
                     `;
                 });
                 htmlContent += '</div>';
-
-		// Display the year total
-                htmlContent += `
-                    <div>
-                        <h3>Total Rainfall for ${year}</h3>
-                        <img src="${yearData.yearTotal.image}" alt="${yearData.yearTotal.alt}">
-                        <p><a href="${yearData.yearTotal.csv}">Download CSV for ${year}</a></p>
-                    </div>
-                `;
                 
                 // Display previous years (e.g., 2005 to 2024)
                 htmlContent += `<div><h3>Previous Years Data</h3>`;
@@ -52,7 +52,15 @@ console.log(yearData);
                                 <h4>${prevYear} Total Rainfall</h4>
                                 <img src="${prevYearData.yearTotal.image}" alt="${prevYearData.yearTotal.alt}">
                                 <p><a href="${prevYearData.yearTotal.csv}">Download CSV for ${prevYear}</a></p>
-                                `;
+                                <h5>Monthly Rainfall</h5>`;
+                        prevYearData.months.forEach(monthData => {
+                            htmlContent += `
+                                <div>
+                                    <h6>${monthData.month}</h6>
+                                    <img src="${monthData.image}" alt="${monthData.alt}">
+                                    <p><a href="${monthData.csv}">Download CSV for ${monthData.month} ${prevYear}</a></p>
+                                </div>
+                            `;
                         });
                         htmlContent += '</div>';
                     }
