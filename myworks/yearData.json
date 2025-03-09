@@ -236,7 +236,7 @@
             { "month": "Dec", "image": "pics/gr122018.gif", "alt": "Rainfall graph for December 2018", "csv": "rain122018.csv" }
         ],
         "yearTotal": { "image": "pics/gr2018.gif", "alt": "Total rainfall graph for 2018", "csv": "rain2018.csv" }
-    }
+    },
     "2019": {
         "months": [
             { "month": "Jan", "image": "pics/gr012019.gif", "alt": "Rainfall graph for January 2019", "csv": "rain012019.csv" },
