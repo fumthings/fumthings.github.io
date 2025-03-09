@@ -12,6 +12,17 @@ h1, h4 {
     margin-bottom: 20px;
 }
 
+ul {
+    list-style-type: none;  /* Remove default list bullets */
+    padding: 0;  /* Remove padding */
+    margin: 0;  /* Remove margin */
+}
+
+ul li {
+    display: inline-block;  /* Make the <li> elements appear inline */
+    margin-right: 5px;  /* Optional: Add space between items */
+}
+
 /* Styling the year links */
 .year-links {
     display: flex;
@@ -72,14 +83,14 @@ h3, h4, h5, h6 {
 
 /* Optional: Style the download links */
 p a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #007bff;
     font-weight: bold;
 }
 
 /* Hover effect on download links */
 p a:hover {
-    text-decoration: underline;
+    color: #0056b3;
 }
 
 /* Style for the year info section */
