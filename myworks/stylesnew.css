@@ -67,6 +67,7 @@ ul li {
     margin: 0 auto;
     max-width: 100%; /* Optional: limit image size */
     height: auto;
+    align-items: center;     /* Center all items horizontally */
 }
 
 /* Styling the months and previous years section */
