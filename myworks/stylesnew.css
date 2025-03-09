@@ -64,7 +64,7 @@ ul li {
 /* Style for images */
 #rainfall-graphs img {
     display: block;
-    margin: 20px  auto;
+    margin: 20px auto;
     max-width: 100%; /* Optional: limit image size */
     height: auto;
 }
@@ -74,6 +74,7 @@ ul li {
     display: flex;
     flex-direction: column;  /* Stack items vertically */
     align-items: center;     /* Center all items horizontally */
+    justify-content: center; /* Center content vertically */
 }
 
 /* Optional: Style the headings of the sections */
