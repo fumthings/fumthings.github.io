@@ -67,6 +67,7 @@ ul li {
     margin: 20px auto;
     max-width: 100%; /* Optional: limit image size */
     height: auto;
+    text-align: center; /* Centering the alt text */
 }
 
 /* If alt text is displayed as text */
