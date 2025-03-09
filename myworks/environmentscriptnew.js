@@ -17,7 +17,7 @@ fetch('yearData.json')
                 const yearData = data[year];  // Get the data for the selected year
                 
                 // Start constructing the HTML for the year info
-                let htmlContent = `<link rel="stylesheet" href="styles.css"><h2>Rainfall data for ${year}</h2>`;
+                let htmlContent = `<h2>Rainfall data for ${year}</h2>`;
 
 		// Display the months for the selected year first
                 htmlContent += `<div><h3>Monthly Rainfall for ${year}</h3>`;
