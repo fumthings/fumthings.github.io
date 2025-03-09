@@ -71,7 +71,7 @@ ul li {
 
 /* Style for images */
 #rainfall-graphs img {
-    display: block;
+    display: flex;
     margin: 0 auto;
     max-width: 100%; /* Optional: limit image size */
     height: auto;
