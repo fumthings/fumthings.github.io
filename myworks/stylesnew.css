@@ -69,6 +69,15 @@ ul li {
     height: auto;
 }
 
+/* If alt text is displayed as text */
+#year-info img[alt]:not([src]) {
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    font-style: italic; /* Style alt text */
+    color: #555;
+}
+
 #year-info p {
     display: flex;
     justify-content: center; /* Center the content horizontally */
