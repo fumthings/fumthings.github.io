@@ -45,9 +45,11 @@ fetch('yearData.json')
                 htmlContent += `<div><h3>Previous Years Data</h3>`;
 
                 // Get the years and sort them in descending order (latest to earliest)
-                const sortedYears = Object.keys(data).filter(year => parseInt(year) < parseInt(selectedYear)).sort((a, b) => b - a);
-    
-                Object.keys(data).forEach(prevYear => {
+                const sortedYears = Object.keys(data)
+                    .filter(prevYear => parseInt(prevYear) < parseInt(year)) // Filter years less than the selected year
+                    .sort((a, b) => b - a); // Sort from latest to earliest
+                    
+                sortedYears.forEach(prevYear => {
                     if (parseInt(prevYear) < parseInt(year)) {
                         const prevYearData = data[prevYear];
                         htmlContent += `
