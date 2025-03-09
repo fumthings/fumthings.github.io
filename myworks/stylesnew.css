@@ -1,74 +1,99 @@
-/* Basic reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Default background color */
+body {
+    background-color: #e0e0ff;
 }
 
-/* Center the entire container */
-#year-info {
+/* Styling the header */
+header {
     text-align: center;
+}
+
+h1, h4 {
+    margin-bottom: 20px;
+}
+
+/* Styling the year links */
+.year-links {
+    display: flex;
+    flex-wrap: wrap; /* Allow the items to wrap to the next line */
+    gap: 5px; /* Space between items */
+    justify-content: left; /* Move left the links */
+    padding: 10px;
+}
+
+/* Styling each year link */
+.year {
+    text-decoration: underline;
+    color: #007BFF;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.year:hover {
+    color: #0056b3;
+}
+
+/* Styling the container for year information */
+#year-info {
+    margin-top: 20px;
     padding: 20px;
+    background-color: #e0e0ff;
+    border: 1px solid #ddd;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Style for the year section */
-h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
+/* Center the content inside #year-info */
+#year-info h2, #year-info h3, #year-info h4 {
+    text-align: center;
 }
 
-/* Center the year total and months sections */
-div {
-    margin-bottom: 20px;
-}
-
-/* Center images and links */
-img {
+/* Style for images */
+#rainfall-graphs img {
     display: block;
     margin: 0 auto;
-    max-width: 100%;  /* Optional: limit image size */
+    max-width: 100%; /* Optional: limit image size */
+    height: auto;
 }
 
-/* Center the download link */
+/* Styling the months and previous years section */
+#rainfall-graphs {
+    display: flex;
+    flex-direction: column;  /* Stack items vertically */
+    align-items: center;     /* Center all items horizontally */
+}
+
+/* Optional: Style the headings of the sections */
+h3, h4, h5, h6 {
+    color: #333;
+}
+
+/* Optional: Style the download links */
 p a {
     text-decoration: none;
     color: #007bff;
     font-weight: bold;
 }
 
-/* Add some spacing to the links */
+/* Hover effect on download links */
 p a:hover {
     text-decoration: underline;
 }
 
-/* Style for the previous years section */
-h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-/* Style for each year display in the previous years section */
-h4 {
-    font-size: 18px;
-    margin-top: 10px;
-}
-
-/* Optionally add spacing to months and previous years sections */
-div div {
+/* Style for the year info section */
+div {
     margin-bottom: 20px;
 }
 
-/* Apply some padding and box-shadow to the overall container */
+/* Adjusting spacing inside the #year-info container */
 #year-info {
-    max-width: 900px;
-    margin: 0 auto;
     padding: 30px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Optional: Style the headings of the sections */
-h3, h4, h5, h6 {
-    color: #333;
+/* Optional: Adding padding and box-shadow for visual appeal */
+#year-info {
+    background-color: #f9f9f9;
+    border-radius: 8px;
 }
