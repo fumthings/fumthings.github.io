@@ -69,6 +69,13 @@ ul li {
     height: auto;
 }
 
+#year-info p {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center;     /* Align items vertically (if necessary) */
+    text-align: center;      /* Ensure text is centered */
+}
+
 /* Styling the months and previous years section */
 #year-info {
     display: flex;
