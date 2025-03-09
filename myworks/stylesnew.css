@@ -62,7 +62,7 @@ ul li {
 }
 
 /* Style for images */
-#rainfall-graphs img {
+#year-info img {
     display: block;
     margin: 20px auto;
     max-width: 100%; /* Optional: limit image size */
@@ -70,7 +70,7 @@ ul li {
 }
 
 /* Styling the months and previous years section */
-#rainfall-graphs {
+#year-info {
     display: flex;
     flex-direction: column;  /* Stack items vertically */
     align-items: center;     /* Center all items horizontally */
