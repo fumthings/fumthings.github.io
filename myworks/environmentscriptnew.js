@@ -43,6 +43,10 @@ fetch('yearData.json')
                 
                 // Display previous years (e.g., 2005 to 2024) - Only year total, no months
                 htmlContent += `<div><h3>Previous Years Data</h3>`;
+
+                // Get the years and sort them in descending order (latest to earliest)
+                const sortedYears = Object.keys(data).filter(year => parseInt(year) < parseInt(selectedYear)).sort((a, b) => b - a);
+    
                 Object.keys(data).forEach(prevYear => {
                     if (parseInt(prevYear) < parseInt(year)) {
                         const prevYearData = data[prevYear];
