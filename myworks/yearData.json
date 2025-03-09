@@ -1,0 +1,359 @@
+{
+    "2005": {
+        "months": [
+            { "month": "Jan", "image": "pics/gr012005.gif", "alt": "Rainfall graph for January 2005", "csv": "rain012005.csv" },
+            { "month": "Feb", "image": "pics/gr022005.gif", "alt": "Rainfall graph for February 2005", "csv": "rain022005.csv" },
+            { "month": "Mar", "image": "pics/gr032005.gif", "alt": "Rainfall graph for March 2005", "csv": "rain032005.csv" },
+            { "month": "Apr", "image": "pics/gr042005.gif", "alt": "Rainfall graph for April 2005", "csv": "rain042005.csv" },
+            { "month": "May", "image": "pics/gr052005.gif", "alt": "Rainfall graph for May 2005", "csv": "rain052005.csv" },
+            { "month": "Jun", "image": "pics/gr062005.gif", "alt": "Rainfall graph for June 2005", "csv": "rain062005.csv" },
+            { "month": "Jul", "image": "pics/gr072005.gif", "alt": "Rainfall graph for July 2005", "csv": "rain072005.csv" },
+            { "month": "Aug", "image": "pics/gr082005.gif", "alt": "Rainfall graph for August 2005", "csv": "rain082005.csv" },
+            { "month": "Sep", "image": "pics/gr092005.gif", "alt": "Rainfall graph for September 2005", "csv": "rain092005.csv" },
+            { "month": "Oct", "image": "pics/gr102005.gif", "alt": "Rainfall graph for October 2005", "csv": "rain102005.csv" },
+            { "month": "Nov", "image": "pics/gr112005.gif", "alt": "Rainfall graph for November 2005", "csv": "rain112005.csv" },
+            { "month": "Dec", "image": "pics/gr122005.gif", "alt": "Rainfall graph for December 2005", "csv": "rain122005.csv" }
+        ],
+        "yearTotal": { "image": "pics/gr2005.gif", "alt": "Total rainfall graph for 2005", "csv": "rain2005.csv" }
+    },
+    "2006": {
+        "months": [
+            { "month": "Jan", "image": "pics/gr012006.gif", "alt": "Rainfall graph for January 2006", "csv": "rain012006.csv" },
+            { "month": "Feb", "image": "pics/gr022006.gif", "alt": "Rainfall graph for February 2006", "csv": "rain022006.csv" },
+            { "month": "Mar", "image": "pics/gr032006.gif", "alt": "Rainfall graph for March 2006", "csv": "rain032006.csv" },
+            { "month": "Apr", "image": "pics/gr042006.gif", "alt": "Rainfall graph for April 2006", "csv": "rain042006.csv" },
+            { "month": "May", "image": "pics/gr052006.gif", "alt": "Rainfall graph for May 2006", "csv": "rain052006.csv" },
+            { "month": "Jun", "image": "pics/gr062006.gif", "alt": "Rainfall graph for June 2006", "csv": "rain062006.csv" },
+            { "month": "Jul", "image": "pics/gr072006.gif", "alt": "Rainfall graph for July 2006", "csv": "rain072006.csv" },
+            { "month": "Aug", "image": "pics/gr082006.gif", "alt": "Rainfall graph for August 2006", "csv": "rain082006.csv" },
+            { "month": "Sep", "image": "pics/gr092006.gif", "alt": "Rainfall graph for September 2006", "csv": "rain092006.csv" },
+            { "month": "Oct", "image": "pics/gr102006.gif", "alt": "Rainfall graph for October 2006", "csv": "rain102006.csv" },
+            { "month": "Nov", "image": "pics/gr112006.gif", "alt": "Rainfall graph for November 2006", "csv": "rain112006.csv" },
+            { "month": "Dec", "image": "pics/gr122006.gif", "alt": "Rainfall graph for December 2006", "csv": "rain122006.csv" }
+        ],
+        "yearTotal": { "image": "pics/gr2006.gif", "alt": "Total rainfall graph for 2006", "csv": "rain2006.csv" }
+    },
+    "2007": {
+        "months": [
+            { "month": "Jan", "image": "pics/gr012007.gif", "alt": "Rainfall graph for January 2007", "csv": "rain012007.csv" },
+            { "month": "Feb", "image": "pics/gr022007.gif", "alt": "Rainfall graph for February 2007", "csv": "rain022007.csv" },
+            { "month": "Mar", "image": "pics/gr032007.gif", "alt": "Rainfall graph for March 2007", "csv": "rain032007.csv" },
+            { "month": "Apr", "image": "pics/gr042007.gif", "alt": "Rainfall graph for April 2007", "csv": "rain042007.csv" },
+            { "month": "May", "image": "pics/gr052007.gif", "alt": "Rainfall graph for May 2007", "csv": "rain052007.csv" },
+            { "month": "Jun", "image": "pics/gr062007.gif", "alt": "Rainfall graph for June 2007", "csv": "rain062007.csv" },
+            { "month": "Jul", "image": "pics/gr072007.gif", "alt": "Rainfall graph for July 2007", "csv": "rain072007.csv" },
+            { "month": "Aug", "image": "pics/gr082007.gif", "alt": "Rainfall graph for August 2007", "csv": "rain082007.csv" },
+            { "month": "Sep", "image": "pics/gr092007.gif", "alt": "Rainfall graph for September 2007", "csv": "rain092007.csv" },
+            { "month": "Oct", "image": "pics/gr102007.gif", "alt": "Rainfall graph for October 2007", "csv": "rain102007.csv" },
+            { "month": "Nov", "image": "pics/gr112007.gif", "alt": "Rainfall graph for November 2007", "csv": "rain112007.csv" },
+            { "month": "Dec", "image": "pics/gr122007.gif", "alt": "Rainfall graph for December 2007", "csv": "rain122007.csv" }
+        ],
+        "yearTotal": { "image": "pics/gr2007.gif", "alt": "Total rainfall graph for 2007", "csv": "rain2007.csv" }
+    },
+    "2008": {
+        "months": [
+            { "month": "Jan", "image": "pics/gr012008.gif", "alt": "Rainfall graph for January 2008", "csv": "rain012008.csv" },
+            { "month": "Feb", "image": "pics/gr022008.gif", "alt": "Rainfall graph for February 2008", "csv": "rain022008.csv" },
+            { "month": "Mar", "image": "pics/gr032008.gif", "alt": "Rainfall graph for March 2008", "csv": "rain032008.csv" },
+            { "month": "Apr", "image": "pics/gr042008.gif", "alt": "Rainfall graph for April 2008", "csv": "rain042008.csv" },
+            { "month": "May", "image": "pics/gr052008.gif", "alt": "Rainfall graph for May 2008", "csv": "rain052008.csv" },
+            { "month": "Jun", "image": "pics/gr062008.gif", "alt": "Rainfall graph for June 2008", "csv": "rain062008.csv" },
+            { "month": "Jul", "image": "pics/gr072008.gif", "alt": "Rainfall graph for July 2008", "csv": "rain072008.csv" },
+            { "month": "Aug", "image": "pics/gr082008.gif", "alt": "Rainfall graph for August 2008", "csv": "rain082008.csv" },
+            { "month": "Sep", "image": "pics/gr092008.gif", "alt": "Rainfall graph for September 2008", "csv": "rain092008.csv" },
+            { "month": "Oct", "image": "pics/gr102008.gif", "alt": "Rainfall graph for October 2008", "csv": "rain102008.csv" },
+            { "month": "Nov", "image": "pics/gr112008.gif", "alt": "Rainfall graph for November 2008", "csv": "rain112008.csv" },
+            { "month": "Dec", "image": "pics/gr122008.gif", "alt": "Rainfall graph for December 2008", "csv": "rain122008.csv" }
+        ],
+        "yearTotal": { "image": "pics/gr2008.gif", "alt": "Total rainfall graph for 2008", "csv": "rain2008.csv" }
+    },
+    "2009": {
+        "months": [
+            { "month": "Jan", "image": "pics/gr012009.gif", "alt": "Rainfall graph for January 2009", "csv": "rain012009.csv" },
+            { "month": "Feb", "image": "pics/gr022009.gif", "alt": "Rainfall graph for February 2009", "csv": "rain022009.csv" },
+            { "month": "Mar", "image": "pics/gr032009.gif", "alt": "Rainfall graph for March 2009", "csv": "rain032009.csv" },
+            { "month": "Apr", "image": "pics/gr042009.gif", "alt": "Rainfall graph for April 2009", "csv": "rain042009.csv" },
+            { "month": "May", "image": "pics/gr052009.gif", "alt": "Rainfall graph for May 2009", "csv": "rain052009.csv" },
+            { "month": "Jun", "image": "pics/gr062009.gif", "alt": "Rainfall graph for June 2009", "csv": "rain062009.csv" },
+            { "month": "Jul", "image": "pics/gr072009.gif", "alt": "Rainfall graph for July 2009", "csv": "rain072009.csv" },
+            { "month": "Aug", "image": "pics/gr082009.gif", "alt": "Rainfall graph for August 2009", "csv": "rain082009.csv" },
+            { "month": "Sep", "image": "pics/gr092009.gif", "alt": "Rainfall graph for September 2009", "csv": "rain092009.csv" },
+            { "month": "Oct", "image": "pics/gr102009.gif", "alt": "Rainfall graph for October 2009", "csv": "rain102009.csv" },
+            { "month": "Nov", "image": "pics/gr112009.gif", "alt": "Rainfall graph for November 2009", "csv": "rain112009.csv" },
+            { "month": "Dec", "image": "pics/gr122009.gif", "alt": "Rainfall graph for December 2009", "csv": "rain122009.csv" }
+        ],
+        "yearTotal": { "image": "pics/gr2009.gif", "alt": "Total rainfall graph for 2009", "csv": "rain2009.csv" }
+    },
+    "2010": {
+        "months": [
+            { "month": "Jan", "image": "pics/gr012010.gif", "alt": "Rainfall graph for January 2010", "csv": "rain012010.csv" },
+            { "month": "Feb", "image": "pics/gr022010.gif", "alt": "Rainfall graph for February 2010", "csv": "rain022010.csv" },
+            { "month": "Mar", "image": "pics/gr032010.gif", "alt": "Rainfall graph for March 2010", "csv": "rain032010.csv" },
+            { "month": "Apr", "image": "pics/gr042010.gif", "alt": "Rainfall graph for April 2010", "csv": "rain042010.csv" },
+            { "month": "May", "image": "pics/gr052010.gif", "alt": "Rainfall graph for May 2010", "csv": "rain052010.csv" },
+            { "month": "Jun", "image": "pics/gr062010.gif", "alt": "Rainfall graph for June 2010", "csv": "rain062010.csv" },
+            { "month": "Jul", "image": "pics/gr072010.gif", "alt": "Rainfall graph for July 2010", "csv": "rain072010.csv" },
+            { "month": "Aug", "image": "pics/gr082010.gif", "alt": "Rainfall graph for August 2010", "csv": "rain082010.csv" },
+            { "month": "Sep", "image": "pics/gr092010.gif", "alt": "Rainfall graph for September 2010", "csv": "rain092010.csv" },
+            { "month": "Oct", "image": "pics/gr102010.gif", "alt": "Rainfall graph for October 2010", "csv": "rain102010.csv" },
+            { "month": "Nov", "image": "pics/gr112010.gif", "alt": "Rainfall graph for November 2010", "csv": "rain112010.csv" },
+            { "month": "Dec", "image": "pics/gr122010.gif", "alt": "Rainfall graph for December 2010", "csv": "rain122010.csv" }
+        ],
+        "yearTotal": { "image": "pics/gr2010.gif", "alt": "Total rainfall graph for 2010", "csv": "rain2010.csv" }
+    },
+    "2011": {
+        "months": [
+            { "month": "Jan", "image": "pics/gr012011.gif", "alt": "Rainfall graph for January 2011", "csv": "rain012011.csv" },
+            { "month": "Feb", "image": "pics/gr022011.gif", "alt": "Rainfall graph for February 2011", "csv": "rain022011.csv" },
+            { "month": "Mar", "image": "pics/gr032011.gif", "alt": "Rainfall graph for March 2011", "csv": "rain032011.csv" },
+            { "month": "Apr", "image": "pics/gr042011.gif", "alt": "Rainfall graph for April 2011", "csv": "rain042011.csv" },
+            { "month": "May", "image": "pics/gr052011.gif", "alt": "Rainfall graph for May 2011", "csv": "rain052011.csv" },
+            { "month": "Jun", "image": "pics/gr062011.gif", "alt": "Rainfall graph for June 2011", "csv": "rain062011.csv" },
+            { "month": "Jul", "image": "pics/gr072011.gif", "alt": "Rainfall graph for July 2011", "csv": "rain072011.csv" },
+            { "month": "Aug", "image": "pics/gr082011.gif", "alt": "Rainfall graph for August 2011", "csv": "rain082011.csv" },
+            { "month": "Sep", "image": "pics/gr092011.gif", "alt": "Rainfall graph for September 2011", "csv": "rain092011.csv" },
+            { "month": "Oct", "image": "pics/gr102011.gif", "alt": "Rainfall graph for October 2011", "csv": "rain102011.csv" },
+            { "month": "Nov", "image": "pics/gr112011.gif", "alt": "Rainfall graph for November 2011", "csv": "rain112011.csv" },
+            { "month": "Dec", "image": "pics/gr122011.gif", "alt": "Rainfall graph for December 2011", "csv": "rain122011.csv" }
+        ],
+        "yearTotal": { "image": "pics/gr2011.gif", "alt": "Total rainfall graph for 2011", "csv": "rain2011.csv" }
+    },
+    "2012": {
+        "months": [
+            { "month": "Jan", "image": "pics/gr012012.gif", "alt": "Rainfall graph for January 2012", "csv": "rain012012.csv" },
+            { "month": "Feb", "image": "pics/gr022012.gif", "alt": "Rainfall graph for February 2012", "csv": "rain022012.csv" },
+            { "month": "Mar", "image": "pics/gr032012.gif", "alt": "Rainfall graph for March 2012", "csv": "rain032012.csv" },
+            { "month": "Apr", "image": "pics/gr042012.gif", "alt": "Rainfall graph for April 2012", "csv": "rain042012.csv" },
+            { "month": "May", "image": "pics/gr052012.gif", "alt": "Rainfall graph for May 2012", "csv": "rain052012.csv" },
+            { "month": "Jun", "image": "pics/gr062012.gif", "alt": "Rainfall graph for June 2012", "csv": "rain062012.csv" },
+            { "month": "Jul", "image": "pics/gr072012.gif", "alt": "Rainfall graph for July 2012", "csv": "rain072012.csv" },
+            { "month": "Aug", "image": "pics/gr082012.gif", "alt": "Rainfall graph for August 2012", "csv": "rain082012.csv" },
+            { "month": "Sep", "image": "pics/gr092012.gif", "alt": "Rainfall graph for September 2012", "csv": "rain092012.csv" },
+            { "month": "Oct", "image": "pics/gr102012.gif", "alt": "Rainfall graph for October 2012", "csv": "rain102012.csv" },
+            { "month": "Nov", "image": "pics/gr112012.gif", "alt": "Rainfall graph for November 2012", "csv": "rain112012.csv" },
+            { "month": "Dec", "image": "pics/gr122012.gif", "alt": "Rainfall graph for December 2012", "csv": "rain122012.csv" }
+        ],
+        "yearTotal": { "image": "pics/gr2012.gif", "alt": "Total rainfall graph for 2012", "csv": "rain2012.csv" }
+    },
+    "2013": {
+        "months": [
+            { "month": "Jan", "image": "pics/gr012013.gif", "alt": "Rainfall graph for January 2013", "csv": "rain012013.csv" },
+            { "month": "Feb", "image": "pics/gr022013.gif", "alt": "Rainfall graph for February 2013", "csv": "rain022013.csv" },
+            { "month": "Mar", "image": "pics/gr032013.gif", "alt": "Rainfall graph for March 2013", "csv": "rain032013.csv" },
+            { "month": "Apr", "image": "pics/gr042013.gif", "alt": "Rainfall graph for April 2013", "csv": "rain042013.csv" },
+            { "month": "May", "image": "pics/gr052013.gif", "alt": "Rainfall graph for May 2013", "csv": "rain052013.csv" },
+            { "month": "Jun", "image": "pics/gr062013.gif", "alt": "Rainfall graph for June 2013", "csv": "rain062013.csv" },
+            { "month": "Jul", "image": "pics/gr072013.gif", "alt": "Rainfall graph for July 2013", "csv": "rain072013.csv" },
+            { "month": "Aug", "image": "pics/gr082013.gif", "alt": "Rainfall graph for August 2013", "csv": "rain082013.csv" },
+            { "month": "Sep", "image": "pics/gr092013.gif", "alt": "Rainfall graph for September 2013", "csv": "rain092013.csv" },
+            { "month": "Oct", "image": "pics/gr102013.gif", "alt": "Rainfall graph for October 2013", "csv": "rain102013.csv" },
+            { "month": "Nov", "image": "pics/gr112013.gif", "alt": "Rainfall graph for November 2013", "csv": "rain112013.csv" },
+            { "month": "Dec", "image": "pics/gr122013.gif", "alt": "Rainfall graph for December 2013", "csv": "rain122013.csv" }
+        ],
+        "yearTotal": { "image": "pics/gr2013.gif", "alt": "Total rainfall graph for 2013", "csv": "rain2013.csv" }
+    },
+    "2014": {
+        "months": [
+            { "month": "Jan", "image": "pics/gr012014.gif", "alt": "Rainfall graph for January 2014", "csv": "rain012014.csv" },
+            { "month": "Feb", "image": "pics/gr022014.gif", "alt": "Rainfall graph for February 2014", "csv": "rain022014.csv" },
+            { "month": "Mar", "image": "pics/gr032014.gif", "alt": "Rainfall graph for March 2014", "csv": "rain032014.csv" },
+            { "month": "Apr", "image": "pics/gr042014.gif", "alt": "Rainfall graph for April 2014", "csv": "rain042014.csv" },
+            { "month": "May", "image": "pics/gr052014.gif", "alt": "Rainfall graph for May 2014", "csv": "rain052014.csv" },
+            { "month": "Jun", "image": "pics/gr062014.gif", "alt": "Rainfall graph for June 2014", "csv": "rain062014.csv" },
+            { "month": "Jul", "image": "pics/gr072014.gif", "alt": "Rainfall graph for July 2014", "csv": "rain072014.csv" },
+            { "month": "Aug", "image": "pics/gr082014.gif", "alt": "Rainfall graph for August 2014", "csv": "rain082014.csv" },
+            { "month": "Sep", "image": "pics/gr092014.gif", "alt": "Rainfall graph for September 2014", "csv": "rain092014.csv" },
+            { "month": "Oct", "image": "pics/gr102014.gif", "alt": "Rainfall graph for October 2014", "csv": "rain102014.csv" },
+            { "month": "Nov", "image": "pics/gr112014.gif", "alt": "Rainfall graph for November 2014", "csv": "rain112014.csv" },
+            { "month": "Dec", "image": "pics/gr122014.gif", "alt": "Rainfall graph for December 2014", "csv": "rain122014.csv" }
+        ],
+        "yearTotal": { "image": "pics/gr2014.gif", "alt": "Total rainfall graph for 2014", "csv": "rain2014.csv" }
+    },
+    "2015": {
+        "months": [
+            { "month": "Jan", "image": "pics/gr012015.gif", "alt": "Rainfall graph for January 2015", "csv": "rain012015.csv" },
+            { "month": "Feb", "image": "pics/gr022015.gif", "alt": "Rainfall graph for February 2015", "csv": "rain022015.csv" },
+            { "month": "Mar", "image": "pics/gr032015.gif", "alt": "Rainfall graph for March 2015", "csv": "rain032015.csv" },
+            { "month": "Apr", "image": "pics/gr042015.gif", "alt": "Rainfall graph for April 2015", "csv": "rain042015.csv" },
+            { "month": "May", "image": "pics/gr052015.gif", "alt": "Rainfall graph for May 2015", "csv": "rain052015.csv" },
+            { "month": "Jun", "image": "pics/gr062015.gif", "alt": "Rainfall graph for June 2015", "csv": "rain062015.csv" },
+            { "month": "Jul", "image": "pics/gr072015.gif", "alt": "Rainfall graph for July 2015", "csv": "rain072015.csv" },
+            { "month": "Aug", "image": "pics/gr082015.gif", "alt": "Rainfall graph for August 2015", "csv": "rain082015.csv" },
+            { "month": "Sep", "image": "pics/gr092015.gif", "alt": "Rainfall graph for September 2015", "csv": "rain092015.csv" },
+            { "month": "Oct", "image": "pics/gr102015.gif", "alt": "Rainfall graph for October 2015", "csv": "rain102015.csv" },
+            { "month": "Nov", "image": "pics/gr112015.gif", "alt": "Rainfall graph for November 2015", "csv": "rain112015.csv" },
+            { "month": "Dec", "image": "pics/gr122015.gif", "alt": "Rainfall graph for December 2015", "csv": "rain122015.csv" }
+        ],
+        "yearTotal": { "image": "pics/gr2015.gif", "alt": "Total rainfall graph for 2015", "csv": "rain2015.csv" }
+    },
+    "2016": {
+        "months": [
+            { "month": "Jan", "image": "pics/gr012016.gif", "alt": "Rainfall graph for January 2016", "csv": "rain012016.csv" },
+            { "month": "Feb", "image": "pics/gr022016.gif", "alt": "Rainfall graph for February 2016", "csv": "rain022016.csv" },
+            { "month": "Mar", "image": "pics/gr032016.gif", "alt": "Rainfall graph for March 2016", "csv": "rain032016.csv" },
+            { "month": "Apr", "image": "pics/gr042016.gif", "alt": "Rainfall graph for April 2016", "csv": "rain042016.csv" },
+            { "month": "May", "image": "pics/gr052016.gif", "alt": "Rainfall graph for May 2016", "csv": "rain052016.csv" },
+            { "month": "Jun", "image": "pics/gr062016.gif", "alt": "Rainfall graph for June 2016", "csv": "rain062016.csv" },
+            { "month": "Jul", "image": "pics/gr072016.gif", "alt": "Rainfall graph for July 2016", "csv": "rain072016.csv" },
+            { "month": "Aug", "image": "pics/gr082016.gif", "alt": "Rainfall graph for August 2016", "csv": "rain082016.csv" },
+            { "month": "Sep", "image": "pics/gr092016.gif", "alt": "Rainfall graph for September 2016", "csv": "rain092016.csv" },
+            { "month": "Oct", "image": "pics/gr102016.gif", "alt": "Rainfall graph for October 2016", "csv": "rain102016.csv" },
+            { "month": "Nov", "image": "pics/gr112016.gif", "alt": "Rainfall graph for November 2016", "csv": "rain112016.csv" },
+            { "month": "Dec", "image": "pics/gr122016.gif", "alt": "Rainfall graph for December 2016", "csv": "rain122016.csv" }
+        ],
+        "yearTotal": { "image": "pics/gr2016.gif", "alt": "Total rainfall graph for 2016", "csv": "rain2016.csv" }
+    },
+    "2017": {
+        "months": [
+            { "month": "Jan", "image": "pics/gr012017.gif", "alt": "Rainfall graph for January 2017", "csv": "rain012017.csv" },
+            { "month": "Feb", "image": "pics/gr022017.gif", "alt": "Rainfall graph for February 2017", "csv": "rain022017.csv" },
+            { "month": "Mar", "image": "pics/gr032017.gif", "alt": "Rainfall graph for March 2017", "csv": "rain032017.csv" },
+            { "month": "Apr", "image": "pics/gr042017.gif", "alt": "Rainfall graph for April 2017", "csv": "rain042017.csv" },
+            { "month": "May", "image": "pics/gr052017.gif", "alt": "Rainfall graph for May 2017", "csv": "rain052017.csv" },
+            { "month": "Jun", "image": "pics/gr062017.gif", "alt": "Rainfall graph for June 2017", "csv": "rain062017.csv" },
+            { "month": "Jul", "image": "pics/gr072017.gif", "alt": "Rainfall graph for July 2017", "csv": "rain072017.csv" },
+            { "month": "Aug", "image": "pics/gr082017.gif", "alt": "Rainfall graph for August 2017", "csv": "rain082017.csv" },
+            { "month": "Sep", "image": "pics/gr092017.gif", "alt": "Rainfall graph for September 2017", "csv": "rain092017.csv" },
+            { "month": "Oct", "image": "pics/gr102017.gif", "alt": "Rainfall graph for October 2017", "csv": "rain102017.csv" },
+            { "month": "Nov", "image": "pics/gr112017.gif", "alt": "Rainfall graph for November 2017", "csv": "rain112017.csv" },
+            { "month": "Dec", "image": "pics/gr122017.gif", "alt": "Rainfall graph for December 2017", "csv": "rain122017.csv" }
+        ],
+        "yearTotal": { "image": "pics/gr2017.gif", "alt": "Total rainfall graph for 2017", "csv": "rain2017.csv" }
+    },
+    "2018": {
+        "months": [
+            { "month": "Jan", "image": "pics/gr012018.gif", "alt": "Rainfall graph for January 2018", "csv": "rain012018.csv" },
+            { "month": "Feb", "image": "pics/gr022018.gif", "alt": "Rainfall graph for February 2018", "csv": "rain022018.csv" },
+            { "month": "Mar", "image": "pics/gr032018.gif", "alt": "Rainfall graph for March 2018", "csv": "rain032018.csv" },
+            { "month": "Apr", "image": "pics/gr042018.gif", "alt": "Rainfall graph for April 2018", "csv": "rain042018.csv" },
+            { "month": "May", "image": "pics/gr052018.gif", "alt": "Rainfall graph for May 2018", "csv": "rain052018.csv" },
+            { "month": "Jun", "image": "pics/gr062018.gif", "alt": "Rainfall graph for June 2018", "csv": "rain062018.csv" },
+            { "month": "Jul", "image": "pics/gr072018.gif", "alt": "Rainfall graph for July 2018", "csv": "rain072018.csv" },
+            { "month": "Aug", "image": "pics/gr082018.gif", "alt": "Rainfall graph for August 2018", "csv": "rain082018.csv" },
+            { "month": "Sep", "image": "pics/gr092018.gif", "alt": "Rainfall graph for September 2018", "csv": "rain092018.csv" },
+            { "month": "Oct", "image": "pics/gr102018.gif", "alt": "Rainfall graph for October 2018", "csv": "rain102018.csv" },
+            { "month": "Nov", "image": "pics/gr112018.gif", "alt": "Rainfall graph for November 2018", "csv": "rain112018.csv" },
+            { "month": "Dec", "image": "pics/gr122018.gif", "alt": "Rainfall graph for December 2018", "csv": "rain122018.csv" }
+        ],
+        "yearTotal": { "image": "pics/gr2018.gif", "alt": "Total rainfall graph for 2018", "csv": "rain2018.csv" }
+    }
+    "2019": {
+        "months": [
+            { "month": "Jan", "image": "pics/gr012019.gif", "alt": "Rainfall graph for January 2019", "csv": "rain012019.csv" },
+            { "month": "Feb", "image": "pics/gr022019.gif", "alt": "Rainfall graph for February 2019", "csv": "rain022019.csv" },
+            { "month": "Mar", "image": "pics/gr032019.gif", "alt": "Rainfall graph for March 2019", "csv": "rain032019.csv" },
+            { "month": "Apr", "image": "pics/gr042019.gif", "alt": "Rainfall graph for April 2019", "csv": "rain042019.csv" },
+            { "month": "May", "image": "pics/gr052019.gif", "alt": "Rainfall graph for May 2019", "csv": "rain052019.csv" },
+            { "month": "Jun", "image": "pics/gr062019.gif", "alt": "Rainfall graph for June 2019", "csv": "rain062019.csv" },
+            { "month": "Jul", "image": "pics/gr072019.gif", "alt": "Rainfall graph for July 2019", "csv": "rain072019.csv" },
+            { "month": "Aug", "image": "pics/gr082019.gif", "alt": "Rainfall graph for August 2019", "csv": "rain082019.csv" },
+            { "month": "Sep", "image": "pics/gr092019.gif", "alt": "Rainfall graph for September 2019", "csv": "rain092019.csv" },
+            { "month": "Oct", "image": "pics/gr102019.gif", "alt": "Rainfall graph for October 2019", "csv": "rain102019.csv" },
+            { "month": "Nov", "image": "pics/gr112019.gif", "alt": "Rainfall graph for November 2019", "csv": "rain112019.csv" },
+            { "month": "Dec", "image": "pics/gr122019.gif", "alt": "Rainfall graph for December 2019", "csv": "rain122019.csv" }
+        ],
+        "yearTotal": { "image": "pics/gr2019.gif", "alt": "Total rainfall graph for 2019", "csv": "rain2019.csv" }
+    },
+    "2020": {
+        "months": [
+            { "month": "Jan", "image": "pics/gr012020.gif", "alt": "Rainfall graph for January 2020", "csv": "rain012020.csv" },
+            { "month": "Feb", "image": "pics/gr022020.gif", "alt": "Rainfall graph for February 2020", "csv": "rain022020.csv" },
+            { "month": "Mar", "image": "pics/gr032020.gif", "alt": "Rainfall graph for March 2020", "csv": "rain032020.csv" },
+            { "month": "Apr", "image": "pics/gr042020.gif", "alt": "Rainfall graph for April 2020", "csv": "rain042020.csv" },
+            { "month": "May", "image": "pics/gr052020.gif", "alt": "Rainfall graph for May 2020", "csv": "rain052020.csv" },
+            { "month": "Jun", "image": "pics/gr062020.gif", "alt": "Rainfall graph for June 2020", "csv": "rain062020.csv" },
+            { "month": "Jul", "image": "pics/gr072020.gif", "alt": "Rainfall graph for July 2020", "csv": "rain072020.csv" },
+            { "month": "Aug", "image": "pics/gr082020.gif", "alt": "Rainfall graph for August 2020", "csv": "rain082020.csv" },
+            { "month": "Sep", "image": "pics/gr092020.gif", "alt": "Rainfall graph for September 2020", "csv": "rain092020.csv" },
+            { "month": "Oct", "image": "pics/gr102020.gif", "alt": "Rainfall graph for October 2020", "csv": "rain102020.csv" },
+            { "month": "Nov", "image": "pics/gr112020.gif", "alt": "Rainfall graph for November 2020", "csv": "rain112020.csv" },
+            { "month": "Dec", "image": "pics/gr122020.gif", "alt": "Rainfall graph for December 2020", "csv": "rain122020.csv" }
+        ],
+        "yearTotal": { "image": "pics/gr2020.gif", "alt": "Total rainfall graph for 2020", "csv": "rain2020.csv" }
+    },
+    "2021": {
+        "months": [
+            { "month": "Jan", "image": "pics/gr012021.gif", "alt": "Rainfall graph for January 2021", "csv": "rain012021.csv" },
+            { "month": "Feb", "image": "pics/gr022021.gif", "alt": "Rainfall graph for February 2021", "csv": "rain022021.csv" },
+            { "month": "Mar", "image": "pics/gr032021.gif", "alt": "Rainfall graph for March 2021", "csv": "rain032021.csv" },
+            { "month": "Apr", "image": "pics/gr042021.gif", "alt": "Rainfall graph for April 2021", "csv": "rain042021.csv" },
+            { "month": "May", "image": "pics/gr052021.gif", "alt": "Rainfall graph for May 2021", "csv": "rain052021.csv" },
+            { "month": "Jun", "image": "pics/gr062021.gif", "alt": "Rainfall graph for June 2021", "csv": "rain062021.csv" },
+            { "month": "Jul", "image": "pics/gr072021.gif", "alt": "Rainfall graph for July 2021", "csv": "rain072021.csv" },
+            { "month": "Aug", "image": "pics/gr082021.gif", "alt": "Rainfall graph for August 2021", "csv": "rain082021.csv" },
+            { "month": "Sep", "image": "pics/gr092021.gif", "alt": "Rainfall graph for September 2021", "csv": "rain092021.csv" },
+            { "month": "Oct", "image": "pics/gr102021.gif", "alt": "Rainfall graph for October 2021", "csv": "rain102021.csv" },
+            { "month": "Nov", "image": "pics/gr112021.gif", "alt": "Rainfall graph for November 2021", "csv": "rain112021.csv" },
+            { "month": "Dec", "image": "pics/gr122021.gif", "alt": "Rainfall graph for December 2021", "csv": "rain122021.csv" }
+        ],
+        "yearTotal": { "image": "pics/gr2021.gif", "alt": "Total rainfall graph for 2021", "csv": "rain2021.csv" }
+    },
+    "2022": {
+        "months": [
+            { "month": "Jan", "image": "pics/gr012022.gif", "alt": "Rainfall graph for January 2022", "csv": "rain012022.csv" },
+            { "month": "Feb", "image": "pics/gr022022.gif", "alt": "Rainfall graph for February 2022", "csv": "rain022022.csv" },
+            { "month": "Mar", "image": "pics/gr032022.gif", "alt": "Rainfall graph for March 2022", "csv": "rain032022.csv" },
+            { "month": "Apr", "image": "pics/gr042022.gif", "alt": "Rainfall graph for April 2022", "csv": "rain042022.csv" },
+            { "month": "May", "image": "pics/gr052022.gif", "alt": "Rainfall graph for May 2022", "csv": "rain052022.csv" },
+            { "month": "Jun", "image": "pics/gr062022.gif", "alt": "Rainfall graph for June 2022", "csv": "rain062022.csv" },
+            { "month": "Jul", "image": "pics/gr072022.gif", "alt": "Rainfall graph for July 2022", "csv": "rain072022.csv" },
+            { "month": "Aug", "image": "pics/gr082022.gif", "alt": "Rainfall graph for August 2022", "csv": "rain082022.csv" },
+            { "month": "Sep", "image": "pics/gr092022.gif", "alt": "Rainfall graph for September 2022", "csv": "rain092022.csv" },
+            { "month": "Oct", "image": "pics/gr102022.gif", "alt": "Rainfall graph for October 2022", "csv": "rain102022.csv" },
+            { "month": "Nov", "image": "pics/gr112022.gif", "alt": "Rainfall graph for November 2022", "csv": "rain112022.csv" },
+            { "month": "Dec", "image": "pics/gr122022.gif", "alt": "Rainfall graph for December 2022", "csv": "rain122022.csv" }
+        ],
+        "yearTotal": { "image": "pics/gr2022.gif", "alt": "Total rainfall graph for 2022", "csv": "rain2022.csv" }
+    },
+       "2023": {
+        "months": [
+            { "month": "Jan", "image": "pics/gr012023.gif", "alt": "Rainfall graph for January 2023", "csv": "rain012023.csv" },
+            { "month": "Feb", "image": "pics/gr022023.gif", "alt": "Rainfall graph for February 2023", "csv": "rain022023.csv" },
+            { "month": "Mar", "image": "pics/gr032023.gif", "alt": "Rainfall graph for March 2023", "csv": "rain032023.csv" },
+            { "month": "Apr", "image": "pics/gr042023.gif", "alt": "Rainfall graph for April 2023", "csv": "rain042023.csv" },
+            { "month": "May", "image": "pics/gr052023.gif", "alt": "Rainfall graph for May 2023", "csv": "rain052023.csv" },
+            { "month": "Jun", "image": "pics/gr062023.gif", "alt": "Rainfall graph for June 2023", "csv": "rain062023.csv" },
+            { "month": "Jul", "image": "pics/gr072023.gif", "alt": "Rainfall graph for July 2023", "csv": "rain072023.csv" },
+            { "month": "Aug", "image": "pics/gr082023.gif", "alt": "Rainfall graph for August 2023", "csv": "rain082023.csv" },
+            { "month": "Sep", "image": "pics/gr092023.gif", "alt": "Rainfall graph for September 2023", "csv": "rain092023.csv" },
+            { "month": "Oct", "image": "pics/gr102023.gif", "alt": "Rainfall graph for October 2023", "csv": "rain102023.csv" },
+            { "month": "Nov", "image": "pics/gr112023.gif", "alt": "Rainfall graph for November 2023", "csv": "rain112023.csv" },
+            { "month": "Dec", "image": "pics/gr122023.gif", "alt": "Rainfall graph for December 2023", "csv": "rain122023.csv" }
+        ],
+        "yearTotal": { "image": "pics/gr2023.gif", "alt": "Total rainfall graph for 2023", "csv": "rain2023.csv" }
+    },
+    "2024": {
+        "months": [
+            { "month": "Jan", "image": "pics/gr012024.gif", "alt": "Rainfall graph for January 2024", "csv": "rain012024.csv" },
+            { "month": "Feb", "image": "pics/gr022024.gif", "alt": "Rainfall graph for February 2024", "csv": "rain022024.csv" },
+            { "month": "Mar", "image": "pics/gr032024.gif", "alt": "Rainfall graph for March 2024", "csv": "rain032024.csv" },
+            { "month": "Apr", "image": "pics/gr042024.gif", "alt": "Rainfall graph for April 2024", "csv": "rain042024.csv" },
+            { "month": "May", "image": "pics/gr052024.gif", "alt": "Rainfall graph for May 2024", "csv": "rain052024.csv" },
+            { "month": "Jun", "image": "pics/gr062024.gif", "alt": "Rainfall graph for June 2024", "csv": "rain062024.csv" },
+            { "month": "Jul", "image": "pics/gr072024.gif", "alt": "Rainfall graph for July 2024", "csv": "rain072024.csv" },
+            { "month": "Aug", "image": "pics/gr082024.gif", "alt": "Rainfall graph for August 2024", "csv": "rain082024.csv" },
+            { "month": "Sep", "image": "pics/gr092024.gif", "alt": "Rainfall graph for September 2024", "csv": "rain092024.csv" },
+            { "month": "Oct", "image": "pics/gr102024.gif", "alt": "Rainfall graph for October 2024", "csv": "rain102024.csv" },
+            { "month": "Nov", "image": "pics/gr112024.gif", "alt": "Rainfall graph for November 2024", "csv": "rain112024.csv" },
+            { "month": "Dec", "image": "pics/gr122024.gif", "alt": "Rainfall graph for December 2024", "csv": "rain122024.csv" }
+        ],
+        "yearTotal": { "image": "pics/gr2024.gif", "alt": "Total rainfall graph for 2024", "csv": "rain2024.csv" }
+    },
+    "2025": {
+        "months": [
+            { "month": "Jan", "image": "pics/gr012025.gif", "alt": "Rainfall graph for January 2025", "csv": "rain012025.csv" },
+            { "month": "Feb", "image": "pics/gr022025.gif", "alt": "Rainfall graph for February 2025", "csv": "rain022025.csv" },
+            { "month": "Mar", "image": "pics/gr032025.gif", "alt": "Rainfall graph for March 2025", "csv": "rain032025.csv" },
+            { "month": "Apr", "image": "pics/gr042025.gif", "alt": "Rainfall graph for April 2025", "csv": "rain042025.csv" },
+            { "month": "May", "image": "pics/gr052025.gif", "alt": "Rainfall graph for May 2025", "csv": "rain052025.csv" },
+            { "month": "Jun", "image": "pics/gr062025.gif", "alt": "Rainfall graph for June 2025", "csv": "rain062025.csv" },
+            { "month": "Jul", "image": "pics/gr072025.gif", "alt": "Rainfall graph for July 2025", "csv": "rain072025.csv" },
+            { "month": "Aug", "image": "pics/gr082025.gif", "alt": "Rainfall graph for August 2025", "csv": "rain082025.csv" },
+            { "month": "Sep", "image": "pics/gr092025.gif", "alt": "Rainfall graph for September 2025", "csv": "rain092025.csv" },
+            { "month": "Oct", "image": "pics/gr102025.gif", "alt": "Rainfall graph for October 2025", "csv": "rain102025.csv" },
+            { "month": "Nov", "image": "pics/gr112025.gif", "alt": "Rainfall graph for November 2025", "csv": "rain112025.csv" },
+            { "month": "Dec", "image": "pics/gr122025.gif", "alt": "Rainfall graph for December 2025", "csv": "rain122025.csv" }
+        ],
+        "yearTotal": { "image": "pics/gr2025.gif", "alt": "Total rainfall graph for 2025", "csv": "rain2025.csv" }
+    }
+}
