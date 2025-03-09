@@ -1,0 +1,74 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center the entire container */
+#year-info {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style for the year section */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Center the year total and months sections */
+div {
+    margin-bottom: 20px;
+}
+
+/* Center images and links */
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;  /* Optional: limit image size */
+}
+
+/* Center the download link */
+p a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Add some spacing to the links */
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Style for the previous years section */
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style for each year display in the previous years section */
+h4 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Optionally add spacing to months and previous years sections */
+div div {
+    margin-bottom: 20px;
+}
+
+/* Apply some padding and box-shadow to the overall container */
+#year-info {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: Style the headings of the sections */
+h3, h4, h5, h6 {
+    color: #333;
+}
