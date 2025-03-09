@@ -41,13 +41,16 @@ fetch('yearData.json')
                     </div>
                 `;
                 
-                // Display previous years (e.g., 2005 to 2024)
+                // Display previous years (e.g., 2005 to 2024) - Only year total, no months
                 htmlContent += `<div><h3>Previous Years Data</h3>`;
                 Object.keys(data).forEach(prevYear => {
                     if (parseInt(prevYear) < parseInt(year)) {
+                        const prevYearData = data[prevYear];
                         htmlContent += `
                             <div>
                                 <h4>${prevYear}</h4>
+                                <img src="${prevYearData.yearTotal.image}" alt="${prevYearData.yearTotal.alt}">
+                                <p><a href="${prevYearData.yearTotal.csv}">Download CSV for ${prevYear}</a></p>
                             </div>
                         `;
                     }
