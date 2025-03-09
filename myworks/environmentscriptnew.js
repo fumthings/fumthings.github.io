@@ -1,4 +1,3 @@
-@ -1,78 +1,79 @@
 // Get all year links
 const yearLinks = document.querySelectorAll('.year');
 
