@@ -45,6 +45,14 @@ ul li {
     color: #0056b3;
 }
 
+/* Styling the container for instructions information */
+#instructions {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e0e0ff;
+    border: 1px solid #ddd;
+}
+
 /* Styling the container for year information */
 #year-info {
     margin-top: 0px;
