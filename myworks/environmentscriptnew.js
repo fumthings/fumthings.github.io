@@ -6,6 +6,7 @@ const yearInfoContainer = document.getElementById('year-info');
 
 // Load the JSON file containing the year data
 fetch('yearData.json')
+console.log(yearData);
     .then(response => response.json())
     .then(data => {
         // Add click event listeners to each year link
