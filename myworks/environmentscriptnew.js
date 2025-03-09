@@ -63,6 +63,13 @@ fetch('yearData.json')
                 });
                 htmlContent += '</div>';
 
+		// Add the copyright notice
+                htmlContent += `
+                    <footer>
+                        <p>Copyright &copy; 2025 Foley U. Matthews. All rights reserved.</p>
+                    </footer>
+                `;
+
                 // Inject the constructed HTML into the #year-info container
                 yearInfoContainer.innerHTML = htmlContent;
             });
