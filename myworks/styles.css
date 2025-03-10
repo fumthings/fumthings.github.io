@@ -3,36 +3,37 @@ body {
     background-color: #e0e0ff;
 }
 
-/* Styling the header */
+/* Header styling */
 header {
     text-align: center;
 }
 
+/* General styles for h1, h4, and list items */
 h1, h4 {
     margin-bottom: 20px;
 }
 
 ul {
-    list-style-type: none;  /* Remove default list bullets */
-    padding: 0;  /* Remove padding */
-    margin: 0;  /* Remove margin */
+    list-style: none;  /* Remove default list bullets */
+    padding: 0;
+    margin: 0;
 }
 
 ul li {
-    display: inline-block;  /* Make the <li> elements appear inline */
-    margin-right: 5px;  /* Optional: Add space between items */
+    display: inline-block;
+    margin-right: 5px;
 }
 
-/* Styling the year links */
+/* Year links container */
 .year-links {
     display: flex;
-    flex-wrap: wrap; /* Allow the items to wrap to the next line */
-    gap: 5px; /* Space between items */
-    justify-content: left; /* Move left the links */
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: left;
     padding: 10px;
 }
 
-/* Styling each year link */
+/* Styling year links */
 .year {
     text-decoration: underline;
     color: #007BFF;
@@ -45,69 +46,57 @@ ul li {
     color: #0056b3;
 }
 
-/* Styling the container for year information */
+/* Year info container */
 #year-info {
     margin-top: 20px;
     padding: 20px;
     background-color: #e0e0ff;
-    /*border: 1px solid #ddd; */
-    max-width: 900px;  
+    max-width: 900px;
     margin: 0 auto;
-    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-/* Center the content inside #year-info */
+/* Centering text inside #year-info headings */
 #year-info h2, #year-info h3, #year-info h4 {
     text-align: center;
 }
 
-/* Style for images */
+/* Styling images in #year-info */
 #year-info img {
     display: block;
     margin: 20px auto;
-    max-width: 100%; /* Optional: limit image size */
+    max-width: 100%;
     height: auto;
 }
 
+/* Centering paragraph content inside #year-info */
 #year-info p {
     display: flex;
-    justify-content: center; /* Center the content horizontally */
-    align-items: center;     /* Align items vertically (if necessary) */
-    text-align: center;      /* Ensure text is centered */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-/* Styling the months and previous years section */
-#year-info {
-    display: flex;
-    flex-direction: column;  /* Stack items vertically */
-    align-items: center;     /* Center all items horizontally */
-    justify-content: center; /* Center content vertically */
-}
-
-/* Optional: Style the headings of the sections */
+/* Optional: Styling heading colors */
 h3, h4, h5, h6 {
     color: #333;
 }
 
-/* Optional: Style the download links */
+/* Optional: Styling download links */
 p a {
     text-decoration: underline;
     color: #007bff;
     font-weight: bold;
 }
 
-/* Hover effect on download links */
 p a:hover {
     color: #0056b3;
 }
 
-/* Style for the year info section */
+/* Spacing for year info sections */
 div {
     margin-bottom: 20px;
 }
-
-/* Adjusting spacing inside the #year-info container */
-#year-info {
-    padding: 30px;
-}
-
