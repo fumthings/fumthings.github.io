@@ -1,0 +1,102 @@
+/* Default background color */
+body {
+    background-color: #e0e0ff;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+}
+
+/* General styles for h1, h4, and list items */
+h1, h4 {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;  /* Remove default list bullets */
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+/* Year links container */
+.year-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: left;
+    padding: 10px;
+}
+
+/* Styling year links */
+.year {
+    text-decoration: underline;
+    color: #007BFF;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.year:hover {
+    color: #0056b3;
+}
+
+/* Year info container */
+#year-info {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e0e0ff;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Centering text inside #year-info headings */
+#year-info h2, #year-info h3, #year-info h4 {
+    text-align: center;
+}
+
+/* Styling images in #year-info */
+#year-info img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Centering paragraph content inside #year-info */
+#year-info p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Optional: Styling heading colors */
+h3, h4, h5, h6 {
+    color: #333;
+}
+
+/* Optional: Styling download links */
+p a {
+    text-decoration: underline;
+    color: #007bff;
+    font-weight: bold;
+}
+
+p a:hover {
+    color: #0056b3;
+}
+
+/* Spacing for year info sections */
+div {
+    margin-bottom: 20px;
+}
