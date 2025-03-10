@@ -4,29 +4,78 @@ const yearLinks = document.querySelectorAll('.year');
 // Get the year info container
 const yearInfoContainer = document.getElementById('year-info');
 
-// Add click event listeners to each year link
-yearLinks.forEach(link => {
-    link.addEventListener('click', (event) => {
-        event.preventDefault();  // Prevent default link behavior
-        
-        const year = event.target.getAttribute('data-year');  // Get the year clicked
-        const filePath = `myenvironment${year}.html`;  // Path to the corresponding year file
-        
-        // Use Fetch API to load the year-specific HTML file
-        fetch(filePath)
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error(`Failed to load content. Status: ${response.status}`);
-                }
-                return response.text();
-            })
-            .then(data => {
-                // Inject the fetched HTML into the #year-info container
-                yearInfoContainer.innerHTML = data;
-            })
-            .catch(error => {
-                // Handle error if the request fails
-                yearInfoContainer.innerHTML = `<h2>Error loading content for ${year}</h2><p>${error.message}</p>`;
+// Load the JSON file containing the year data
+fetch('yearData.json')
+    .then(response => response.json())
+    .then(data => {
+        // Add click event listeners to each year link
+        yearLinks.forEach(link => {
+            link.addEventListener('click', (event) => {
+                event.preventDefault();  // Prevent default link behavior
+                
+                const year = event.target.getAttribute('data-year');  // Get the year clicked
+                const yearData = data[year];  // Get the data for the selected year
+                
+                // Start constructing the HTML for the year info
+                let htmlContent = `<h2>Rainfall data for ${year}</h2>`;
+
+		// Display the months for the selected year first
+                htmlContent += `<div><h3>Monthly Rainfall for ${year}</h3>`;
+                yearData.months.forEach(monthData => {
+                    htmlContent += `
+                        <div>
+                            <h4>${monthData.month}</h4>
+                            <img src="${monthData.image}" alt="${monthData.alt}">
+                            <p><a href="${monthData.csv}">Download CSV for ${monthData.month} ${year}</a></p>
+                        </div>
+                    `;
+                });
+                htmlContent += '</div>';
+
+                // Then, display the year total
+                htmlContent += `
+                    <div>
+                        <h3>Total Rainfall for ${year}</h3>
+                        <img src="${yearData.yearTotal.image}" alt="${yearData.yearTotal.alt}">
+                        <p><a href="${yearData.yearTotal.csv}">Download CSV for ${year}</a></p>
+                    </div>
+                `;
+                
+                // Display previous years (e.g., 2005 to 2024) - Only year total, no months
+                htmlContent += `<div><h3>Previous Years Data</h3>`;
+
+                // Get the years and sort them in descending order (latest to earliest)
+                const sortedYears = Object.keys(data)
+                    .filter(prevYear => parseInt(prevYear) < parseInt(year)) // Filter years less than the selected year
+                    .sort((a, b) => b - a); // Sort from latest to earliest
+                    
+                sortedYears.forEach(prevYear => {
+                    if (parseInt(prevYear) < parseInt(year)) {
+                        const prevYearData = data[prevYear];
+                        htmlContent += `
+                            <div>
+                                <h4>${prevYear}</h4>
+                                <img src="${prevYearData.yearTotal.image}" alt="${prevYearData.yearTotal.alt}">
+                                <p><a href="${prevYearData.yearTotal.csv}">Download CSV for ${prevYear}</a></p>
+                            </div>
+                        `;
+                    }
+                });
+                htmlContent += '</div>';
+
+		// Add the copyright notice
+                htmlContent += `
+                    <footer>
+                        <p>Copyright &copy; 2025 Foley U. Matthews. All rights reserved.</p>
+                    </footer>
+                `;
+
+                // Inject the constructed HTML into the #year-info container
+                yearInfoContainer.innerHTML = htmlContent;
             });
+        });
+    })
+    .catch(error => {
+        console.error('Error loading the year data:', error);
+        yearInfoContainer.innerHTML = '<p>Failed to load data. Please try again later.</p>';
     });
-});
